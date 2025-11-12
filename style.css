@@ -1,0 +1,58 @@
+/* space mono link */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+/* about style */
+
+.about {
+  padding: 80px 0 290px;
+
+  background-image: url("./src/makaron\ .svg");
+  background-repeat: no-repeat;
+
+  background-position: bottom;
+}
+
+.about__wrapper {
+  text-align: center;
+}
+
+.about__avatar {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+
+  padding: 20px;
+  background-image: linear-gradient(#bff0ff, #82b4ff);
+
+  margin-bottom: 42px;
+}
+
+.about__name {
+  margin: 0 auto;
+
+  font-size: 96px;
+  line-height: 128px;
+  letter-spacing: 0%;
+  font-family: "Space Mono", monospace;
+
+  background: -webkit-linear-gradient(#dba6f4, #a981fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* about style finish */
+
+/* Skills style */
+.skills {
+}
+
+/* Skills style finish */
